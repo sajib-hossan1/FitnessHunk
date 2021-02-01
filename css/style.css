@@ -1,0 +1,937 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+/* header area starts here */
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.13), rgba(255, 17, 0, 0.185)), url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.navbar {
+    background: transparent !important;
+}
+
+.navbar-brand h2 {
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 45px;
+    margin-left: 25px;
+    padding: 8px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.699);
+}
+
+.navbar-div ul {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.navbar-div ul li {
+    margin-left: 25px;
+}
+
+.navbar-div ul li a {
+    background: rgba(37, 30, 58, 0.473) !important;
+    color: white !important;
+    border: 1px solid white;
+    padding: 5px 12px !important;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+.navbar-div ul li a:hover {
+    transform: scale(1.1);
+    color: rgb(219, 219, 219);
+}
+
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+}
+
+.fa-bars {
+    font-size: 35px;
+    color: white;
+    background: rgba(3, 217, 255, 0.726);
+    padding: 4px 7px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+
+.banner-title-area {
+    color: rgb(252, 252, 252);
+    text-align: center;
+    margin-top: 150px;
+}
+
+.banner-title-area h2 {
+    color: white;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.747);
+    font-size: 70px;
+    font-family: 'Original Surfer', cursive;
+}
+
+.banner-title-area h5 {
+    color: white;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.596);
+    font-size: 20px;
+    margin-top: -10px;
+    font-style: italic;
+}
+
+.btn-div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner-btn {
+    background: linear-gradient(to right, #da22ff, #9733ee);
+    border: none;
+    outline: none !important;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+.banner-btn:hover {
+    transform: scale(1.1);
+}
+
+/* header area ends here */
+
+
+
+
+/* our top edition section starts here */
+.features-title {
+    color: black;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+.features-title::before {
+    content: '';
+    background: black;
+    position: absolute;
+    height: 3px;
+    width: 400px;
+    bottom: 17%;
+    left: 35%;
+}
+
+.feature-bg-1 {
+    background: url(../images/six-pack.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    border-bottom: 5px solid rgb(71, 71, 71);
+}
+
+.feature-bg-2 {
+    background: url(../images/biceps.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    border-bottom: 5px solid rgb(71, 71, 71);
+}
+
+.feature-bg-3 {
+    background: url(../images/full-body.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+
+.feature-box-1 {
+    background-color: rgba(0, 0, 0, 0.384);
+    color: white;
+    margin-top: 200px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.feature-box-2 {
+    background-color: rgba(0, 0, 0, 0.384);
+    color: white;
+    margin-top: 300px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.feature-box-3 {
+    background-color: rgba(0, 0, 0, 0.384);
+    color: white;
+    margin-top: 200px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.feature-box-1 h1,
+.feature-box-2 h1,
+.feature-box-3 h1 {
+    color: chartreuse;
+    font-family: 'Gorditas', cursive;
+}
+
+.feature-box-1,
+.feature-box-2,
+.feature-box-3 p {
+    text-align: justify;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+/* our top edition section ends here */
+
+
+
+/* why join us section starts here */
+.why-join-us-title {
+    color: black;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+.why-join-us-title::before {
+    content: '';
+    background: black;
+    position: absolute;
+    height: 3px;
+    width: 150px;
+    bottom: 19%;
+    left: 44%;
+}
+
+.why-join-us-1 {
+    padding: 40px 0;
+}
+
+
+.why-join-us-img {
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+    filter: brightness(1);
+}
+
+
+.gym-equipment-div h1 {
+    color: rgb(255, 0, 43);
+    font-family: 'Architects Daughter', cursive;
+    margin-top: 60px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.gym-equipment-div p {
+    text-align: justify;
+    color: black;
+    font-family: sans-serif;
+    margin-top: -5px;
+    font-size: 15px;
+}
+
+.why-join-us-2 {
+    background: url(../images/men&women.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+}
+
+.w-j-us-cntnt-box {
+    background-color: rgba(0, 0, 0, 0.384);
+    color: white;
+    margin-top: 200px;
+    border-radius: 5px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.w-j-us-cntnt-box h1 {
+    font-family: 'Kaushan Script', cursive;
+    color: chartreuse;
+    text-shadow: 0px 0px 13px black;
+}
+
+.w-j-us-cntnt-box p {
+    font-family: sans-serif;
+}
+
+/* why join us section ends here */
+
+
+
+
+/* online video section starts here */
+.video-youtube {
+    padding: 20px 0;
+    color: black;
+}
+
+.video-youtube h1 {
+    text-align: center;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+.video-youtube h1::before {
+    content: '';
+    background: black;
+    position: absolute;
+    height: 3px;
+    width: 200px;
+    bottom: 22%;
+    left: 42%;
+}
+
+.vid-yt-cnt h2 {
+    margin-top: 90px;
+    color: red;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.vid-yt-cnt p {
+    text-align: justify;
+    color: black;
+    font-family: sans-serif;
+    margin-top: -5px;
+    font-size: 15px;
+}
+
+.yt-embed-vid {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.yt-embed-vid iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* online video section ends here */
+
+
+
+
+
+/* trainer section starts here */
+.trainer-section {
+    background-color: rgb(54, 54, 54);
+}
+
+.trainer-section h1 {
+    color: rgb(243, 243, 243);
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+.trainer-section h1::before {
+    content: '';
+    background: rgb(243, 243, 243);
+    position: absolute;
+    height: 3px;
+    width: 145px;
+    bottom: 22%;
+    left: 45%;
+}
+
+.trainer-box {
+    box-shadow: 0px 0px 8px rgba(50, 40, 99, 0.521);
+    text-align: center;
+    padding-bottom: 7px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+
+.trainer-box img {
+    width: 100%;
+}
+
+.trainer-box h2 {
+    color: rgb(243, 243, 243);
+    padding: 15px 0px 13px 0px;
+}
+
+.trainer-box p {
+    color: rgb(243, 243, 243);
+    text-align: justify;
+    padding: 0px 10px 0px 10px;
+    margin-top: -10px;
+    font-family: sans-serif;
+}
+
+.trainer-box small {
+    color: rgb(243, 243, 243);
+}
+
+.trainer-social-icon .fa {
+    margin-right: 20px;
+    margin-left: 5px;
+    padding: 15px 0;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.493);
+    padding: 10px 15px;
+}
+
+.trainer-social-icon .fa-facebook-f {
+    color: #1954d3;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.733);
+    transition: 0.4s;
+}
+
+.trainer-social-icon .fa-facebook-f:hover {
+    transform: translateY(-7px);
+}
+
+.trainer-social-icon .fa-twitter {
+    color: #00acee;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.733);
+    transition: 0.4s;
+}
+
+.trainer-social-icon .fa-twitter:hover {
+    transform: translateY(-7px);
+}
+
+.trainer-social-icon .fa-instagram {
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.733);
+    transition: 0.4s;
+    color: #db21a0;
+}
+
+.trainer-social-icon .fa-instagram:hover {
+    transform: translateY(-7px);
+}
+
+/* trainer section ends here */
+
+
+
+
+/* user review section starts here */
+.user-review h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px 20px;
+    position: relative;
+}
+
+.user-review h1::before {
+    content: '';
+    background: black;
+    position: absolute;
+    height: 3px;
+    width: 145px;
+    bottom: 22%;
+    left: 45%;
+}
+
+.user-review-box {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.user-review-box p {
+    padding-top: 30px;
+    text-align: justify;
+    position: relative;
+}
+
+.user-review-box p::before {
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #4b8aff;
+    font-family: sans-serif;
+    left: 45%;
+    top: -33px;
+}
+
+.user-review-box .fa {
+    font-size: 22px;
+    color: #00acee;
+    padding-top: 10px;
+}
+
+.user-img {
+    text-align: center;
+    margin-top: -10px;
+}
+
+.user-img img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* user review section ends here */
+
+
+
+/* registration form section starts here */
+.regi-header {
+    background: yellow;
+    text-align: center;
+    margin-top: 60px;
+    padding: 30px 10px;
+    color: black;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.regi-form {
+    background: rgb(21, 83, 255);
+    padding: 10px 10px 10px 30px;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.form-control {
+    width: 90%;
+    max-width: 500px;
+}
+
+/* registration form section ends here */
+
+
+
+/* app download section starts here */
+.app-dwnl-img h2 {
+    padding: 60px 10px 10px 10px;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-img-div {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.app-img-div img {
+    width: 40%;
+}
+
+/* app download section ends here */
+
+
+
+/* footer section starts here */
+.footer {
+    margin-top: 50px;
+    padding: 50px 20px 15px;
+    background-image: linear-gradient(#5d5dc2, #00d471);
+    color: white;
+}
+
+.footer-info-div {
+    margin-bottom: 50px;
+}
+
+.footer h3 {
+    padding-bottom: 10px;
+    font-family: 'Original Surfer', cursive;
+}
+
+.footer h6 {
+    text-align: justify;
+    width: 200px;
+    font-weight: 400;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer p {
+    font-size: 20px;
+}
+
+.footer h4 {
+    padding-bottom: 10px;
+}
+
+.footer .fa-facebook-square {
+    color: #1954d3;
+    font-size: 24px;
+    text-shadow: 0px 0px 7px rgba(255, 255, 255, 0.5);
+}
+
+.footer .fa-youtube-play {
+    color: red;
+    font-size: 24px;
+    text-shadow: 0px 0px 7px rgba(255, 255, 255, 0.5);
+}
+
+.footer .fa-twitter {
+    color: #00acee;
+    font-size: 24px;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+}
+
+.footer hr {
+    background: lightgray;
+    margin-top: 20px;
+}
+
+.copyright-text {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* footer section ends here */
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .feature-box-1 {
+        margin-top: 140px;
+        padding: 15px 20px;
+        padding-bottom: 10px;
+    }
+
+    .feature-box-1 h1 {
+        font-size: 40px;
+    }
+
+    .feature-box-1 p {
+        font-size: 15px;
+    }
+
+    .feature-box-2 {
+        margin-top: 250px;
+        padding: 15px 20px;
+    }
+
+    .feature-box-2 h1 {
+        font-size: 40px;
+    }
+
+    .feature-box-2 p {
+        font-size: 15px;
+    }
+
+    .feature-box-3 {
+        margin-top: 200px;
+        padding: 15px 20px;
+    }
+
+    .feature-box-3 h1 {
+        font-size: 40px;
+    }
+
+    .feature-box-3 p {
+        font-size: 15px;
+    }
+
+    .features-title::before {
+        height: 3px;
+        width: 400px;
+        bottom: 17%;
+        left: 25%;
+    }
+
+    .why-join-us-title::before {
+        width: 150px;
+        bottom: 19%;
+        left: 40%;
+    }
+
+    .video-youtube h1::before {
+        width: 200px;
+        bottom: 22%;
+        left: 36%;
+    }
+
+    .trainer-section h1::before {
+        width: 130px;
+        bottom: 22%;
+        left: 42%;
+    }
+
+    .user-review h1::before {
+        width: 145px;
+        bottom: 22%;
+        left: 41%;
+    }
+
+    .gym-equipment-div h1 {
+        margin-top: 20px;
+    }
+
+    .vid-yt-cnt h2 {
+        margin-top: 0px;
+    }
+
+    .footer p {
+        font-size: 17px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 766px) {
+
+    .navbar-brand h2 {
+        margin-right: 20px;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+
+    .navbar-div {
+        background: rgba(35, 35, 65, 0.486);
+    }
+
+
+    .navbar-div ul li {
+        border-bottom: 1px solid rgb(145, 145, 145);
+        padding: 20px;
+    }
+
+    .navbar-div ul li a {
+        background: none !important;
+        border: none;
+        text-align: center;
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .navbar-div ul li a:hover {
+        transform: scale(1);
+        color: rgb(223, 223, 223);
+    }
+
+    .features-title::before {
+        display: none;
+    }
+
+    .why-join-us-title::before {
+        display: none;
+    }
+
+    .video-youtube h1::before {
+        display: none;
+    }
+
+    .trainer-section h1::before {
+        display: none;
+    }
+
+    .user-review h1::before {
+        display: none;
+    }
+
+    .why-join-us-2 {
+        height: 50vh;
+    }
+
+    .w-j-us-cntnt-box {
+        margin-top: 100px;
+        padding: 5px 0;
+    }
+
+    .w-j-us-cntnt-box h1 {
+        font-size: 30px;
+    }
+
+    .w-j-us-cntnt-box p {
+        font-size: 14px;
+    }
+}
+
+
+
+@media screen and (max-width: 425px) {
+
+
+    .navbar-brand h2 {
+        margin-right: 5px;
+        margin-top: 3px;
+        font-size: 35px;
+    }
+
+
+    .fa-bars {
+        margin-top: 3px;
+        font-size: 30px;
+    }
+
+    .banner-title-area h2 {
+        font-size: 46px;
+    }
+
+    .banner-title-area h5 {
+        font-size: 14px;
+    }
+
+    .banner-btn {
+        font-size: 12px;
+    }
+
+
+    .feature-bg-1 {
+        background-position: left;
+        height: 50vh;
+    }
+
+    .feature-bg-2 {
+        height: 50vh;
+        background-position: right;
+    }
+
+    .feature-bg-3 {
+        height: 50vh;
+    }
+
+    .feature-box-1 {
+        margin-top: 80px;
+        padding: 9px 12px 0px 12px;
+    }
+
+    .feature-box-1 h1 {
+        font-size: 25px;
+    }
+
+    .feature-box-1 p {
+        font-size: 12px;
+        margin-top: -6px;
+        padding-bottom: 6px;
+    }
+
+    .feature-box-2 {
+        margin-top: 150px;
+        padding: 9px 12px 0px 12px;
+    }
+
+    .feature-box-2 h1 {
+        font-size: 25px;
+    }
+
+    .feature-box-2 p {
+        font-size: 12px;
+        margin-top: -6px;
+        padding-bottom: 6px;
+    }
+
+    .feature-box-3 {
+        margin-top: 150px;
+        padding: 9px 12px 0px 12px;
+    }
+
+    .feature-box-3 h1 {
+        font-size: 25px;
+    }
+
+    .feature-box-3 p {
+        font-size: 12px;
+        margin-top: -6px;
+        padding-bottom: 6px;
+    }
+
+    .features-title {
+        padding: 40px 10px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .why-join-us-title {
+        padding: 40px 10px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .video-youtube h1 {
+        padding: 40px 10px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .trainer-section h1 {
+        padding: 40px 10px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .user-review h1 {
+        padding: 40px 10px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .why-join-us-2 {
+        height: 40vh;
+    }
+
+    .w-j-us-cntnt-box {
+        margin-top: 90px;
+        padding: 5px 0;
+    }
+
+    .w-j-us-cntnt-box h1 {
+        font-size: 22px;
+    }
+
+    .w-j-us-cntnt-box p {
+        font-size: 12px;
+    }
+}
+
+
+
+@media screen and (max-width:320px) {
+    .why-join-us-2 {
+        height: 35vh;
+    }
+
+    .w-j-us-cntnt-box {
+        margin-top: 30px;
+        padding: 5px 0;
+    }
+
+    .features-title {
+        font-size: 30px;
+    }
+}
